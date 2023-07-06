@@ -1,0 +1,746 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Topic</title>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="main-nav">
+        <div class="nav-container flex align-center justify-between" id="logo">
+          <a href="#" class="logo-link flex align-center text-decoration">
+            <svg
+              class="logo-icon"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="w-6 h-6"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M21 7.5l-9-5.25L3 7.5m18 0l-9 5.25m9-5.25v9l-9 5.25M3 7.5l9 5.25M3 7.5v9l9 5.25m0-9v9"
+              />
+            </svg>
+            <span class="topic">Topic</span>
+          </a>
+          <ul class="main-nav-list flex align-center list-none">
+            <li class="list-items">
+              <a href="#home" class="list-link text-decoration">HOME</a>
+            </li>
+            <li class="list-items">
+              <a href="#topics" class="list-link text-decoration"
+                >BROWSE TOPICS</a
+              >
+            </li>
+            <li class="list-items">
+              <a href="#how" class="list-link text-decoration">HOW IT WORKS</a>
+            </li>
+
+            <li class="list-items">
+              <a href="#contact" class="list-link text-decoration">CONTACT</a>
+            </li>
+            <li class="list-items">
+              <a href="#" class="list-link text-decoration">PAGES</a>
+            </li>
+          </ul>
+          <a href="#" class="user-icon-link text-decoration">
+            <ion-icon class="user-icon" name="person-circle-outline"></ion-icon
+          ></a>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="section-hero" id="home">
+        <div class="hero-container">
+          <div class="hero-text-box">
+            <h1 class="heading-primary">Discover. Learn. Enjoy</h1>
+            <p class="hero-description">
+              platform for creatives around the world
+            </p>
+            <div class="search-form-container">
+              <form class="search-form">
+                <svg
+                  class="search-icon"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="w-6 h-6"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z"
+                  />
+                </svg>
+                <input
+                  class="input-search"
+                  type="text"
+                  placeholder="Design, Code, Marketing, Finance.."
+                />
+                <button class="btn btn-search">Search</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section-features">
+        <div class="cards-container">
+          <div class="cards-inner--container">
+            <div class="card card-web-design">
+              <div class="card-header flex justify-between">
+                <div class="card-info">
+                  <h3 class="heading-tertiary">Web Design</h3>
+                  <p class="card-description">
+                    When you search for free CSS templates, you will notice that
+                    TemplateMo is one of the best websites.
+                  </p>
+                </div>
+                <span class="number">14</span>
+              </div>
+              <img
+                src="images/undraw_Remote_design_team_re_urdx.png"
+                class="card-img"
+                alt=""
+              />
+            </div>
+            <div class="card card-finance">
+              <img
+                class="card-finance-img"
+                src="images/businesswoman-using-tablet-analysis.jpg"
+                alt=""
+              />
+              <div class="card-finance-container flex justify-between">
+                <div class="card-header flex justify-between">
+                  <div class="card-info-finance">
+                    <h3 class="heading-tertiary text-white">Finance</h3>
+                    <p class="card-description text-white margin-bottom-sm">
+                      Topic Listing Template includes homepage, listing page,
+                      detail page, and contact page. You can feel free to edit
+                      and adapt for your CMS requirements.
+                    </p>
+                    <button class="btn btn--learn-more">Learn More</button>
+                  </div>
+                  <span class="number card-finance-number">25</span>
+                </div>
+                <div class="card-links flex">
+                  <p class="share">Share</p>
+                  <ul class="card-links-list flex list-none">
+                    <li class="link-item">
+                      <a href="#" class="card-link text-decoration">
+                        <ion-icon
+                          class="social-link-icon"
+                          name="logo-twitter"
+                        ></ion-icon>
+                      </a>
+                    </li>
+                    <li class="link-item">
+                      <a href="#" class="card-link text-decoration">
+                        <ion-icon
+                          class="social-link-icon"
+                          name="logo-facebook"
+                        ></ion-icon>
+                      </a>
+                    </li>
+                    <li class="link-item">
+                      <a href="#" class="card-link text-decoration">
+                        <ion-icon
+                          class="social-link-icon"
+                          name="logo-pinterest"
+                        ></ion-icon>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="overlay"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section-topics" id="topics">
+        <div class="topics-container">
+          <div class="topics-header">
+            <h2 class="heading-secondary">Browse Topics</h2>
+            <div class="btn-container flex align-center justify-center">
+              <button class="btn-topics" id="1" data-div-id="design">
+                Design
+              </button>
+              <button class="btn-topics" id="2" data-div-id="marketing">
+                Marketing
+              </button>
+              <button class="btn-topics" id="3" data-div-id="finance">
+                Finance
+              </button>
+              <button class="btn-topics" id="4" data-div-id="music">
+                Music
+              </button>
+              <button class="btn-topics" id="5" data-div-id="education">
+                Education
+              </button>
+            </div>
+          </div>
+          <div class="topic-body">
+            <div class="content-div fade" id="design">
+              <div class="container-design grid grid--3-cols">
+                <div class="card card-topic card-design">
+                  <div class="card-header flex justify-between">
+                    <div class="card-info">
+                      <h3 class="heading-tertiary">Web Design</h3>
+                      <p class="card-description">
+                        Topic Listing Template based on bootstrap 5
+                      </p>
+                    </div>
+                    <span class="number">14</span>
+                  </div>
+                  <img
+                    src="images/undraw_Remote_design_team_re_urdx.png"
+                    class="card-img"
+                    alt=""
+                  />
+                </div>
+                <div class="card card-topic card-design">
+                  <div class="card-header flex justify-between">
+                    <div class="card-info">
+                      <h3 class="heading-tertiary">Graphic</h3>
+                      <p class="card-description">
+                        Lorem ipsum dolor sit amet consectetur
+                      </p>
+                    </div>
+                    <span class="number">75</span>
+                  </div>
+                  <img
+                    src="images/undraw_Redesign_feedback_re_jvm0.png"
+                    class="card-img"
+                    alt=""
+                  />
+                </div>
+                <div class="card card-topic card-design">
+                  <div class="card-header flex justify-between">
+                    <div class="card-info">
+                      <h3 class="heading-tertiary">Logo Design</h3>
+                      <p class="card-description">
+                        Lorem ipsum dolor sit amet consectetur
+                      </p>
+                    </div>
+                    <span class="number">100</span>
+                  </div>
+                  <img
+                    src="images/colleagues-working-cozy-office-medium-shot.png"
+                    class="card-img"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="content-div fade" id="marketing">
+              <div class="container-marketing grid grid--3-cols">
+                <div class="card card-topic card-marketing">
+                  <div class="card-header flex justify-between">
+                    <div class="card-info">
+                      <h3 class="heading-tertiary">Advertising</h3>
+                      <p class="card-description">
+                        Lorem ipsum dolor sit amet consectetur
+                      </p>
+                    </div>
+                    <span class="number number-marketing">30</span>
+                  </div>
+                  <img
+                    src="images/undraw_online_ad_re_ol62.png"
+                    class="card-img"
+                    alt=""
+                  />
+                </div>
+                <div class="card card-topic card-marketing">
+                  <div class="card-header flex justify-between">
+                    <div class="card-info">
+                      <h3 class="heading-tertiary">Video Content</h3>
+                      <p class="card-description">
+                        Lorem ipsum dolor sit amet consectetur
+                      </p>
+                    </div>
+                    <span class="number number-marketing">65</span>
+                  </div>
+                  <img
+                    src="images/undraw_Group_video_re_btu7.png"
+                    class="card-img"
+                    alt=""
+                  />
+                </div>
+                <div class="card card-topic card-marketing">
+                  <div class="card-header flex justify-between">
+                    <div class="card-info">
+                      <h3 class="heading-tertiary">Viral Tweet</h3>
+                      <p class="card-description">
+                        Lorem ipsum dolor sit amet consectetur
+                      </p>
+                    </div>
+                    <span class="number number-marketing">50</span>
+                  </div>
+                  <img
+                    src="images/undraw_viral_tweet_gndb.png"
+                    class="card-img"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="content-div fade" id="finance">
+              <div class="main--container-finance grid grid--2-cols">
+                <div class="inner--container-education">
+                  <div class="card-topic card flex flex-col">
+                    <div class="flex card-header justify-center">
+                      <div class="education-topic-header">
+                        <h3 class="heading-tertiary">Investment</h3>
+                        <p class="card-description">
+                          Lorem ipsum dolor sit amet consectetur
+                        </p>
+                      </div>
+                      <span class="number card-finance-number">30</span>
+                    </div>
+                    <img
+                      src="images/undraw_Finance_re_gnv2.png"
+                      class="card-img"
+                      alt=""
+                    />
+                  </div>
+                </div>
+                <div class="inner--container-education h-38">
+                  <div
+                    class="card-topic card background-gradient flex flex-col justify-between"
+                  >
+                    <div class="flex card-header">
+                      <div class="education-topic-header">
+                        <h3 class="heading-tertiary text-white">Finance</h3>
+                        <p class="card-description text-white margin-bottom-md">
+                          Lorem ipsum dolor, sit amet consectetur adipisicing
+                          elit. Sint animi necessitatibus aperiam repudiandae
+                          nam omnis
+                        </p>
+                        <button class="btn btn--learn-more">Learn More</button>
+                      </div>
+                      <span class="number card-finance-number">25</span>
+                    </div>
+                    <div class="card-links flex">
+                      <p class="share">Share</p>
+                      <ul class="card-links-list flex list-none">
+                        <li class="link-item">
+                          <a href="#" class="card-link text-decoration">
+                            <ion-icon
+                              class="social-link-icon"
+                              name="logo-twitter"
+                            ></ion-icon>
+                          </a>
+                        </li>
+                        <li class="link-item">
+                          <a href="#" class="card-link text-decoration">
+                            <ion-icon
+                              class="social-link-icon"
+                              name="logo-facebook"
+                            ></ion-icon>
+                          </a>
+                        </li>
+                        <li class="link-item">
+                          <a href="#" class="card-link text-decoration">
+                            <ion-icon
+                              class="social-link-icon"
+                              name="logo-pinterest"
+                            ></ion-icon>
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="content-div fade" id="music">
+              <div class="container-music grid grid--3-cols">
+                <div class="card card-topic card-music">
+                  <div class="card-header flex justify-between">
+                    <div class="card-info">
+                      <h3 class="heading-tertiary">Composing Song</h3>
+                      <p class="card-description">
+                        Lorem ipsum dolor sit amet consectetur
+                      </p>
+                    </div>
+                    <span class="number number-music">45</span>
+                  </div>
+                  <img
+                    src="images/undraw_Compose_music_re_wpiw.png"
+                    class="card-img"
+                    alt=""
+                  />
+                </div>
+                <div class="card card-topic card-music">
+                  <div class="card-header flex justify-between">
+                    <div class="card-info">
+                      <h3 class="heading-tertiary">Online Music</h3>
+                      <p class="card-description">
+                        Lorem ipsum dolor sit amet consectetur
+                      </p>
+                    </div>
+                    <span class="number number-music">45</span>
+                  </div>
+                  <img
+                    src="images/undraw_happy_music_g6wc.png"
+                    class="card-img"
+                    alt=""
+                  />
+                </div>
+                <div class="card card-topic card-music">
+                  <div class="card-header flex justify-between">
+                    <div class="card-info">
+                      <h3 class="heading-tertiary">Podcast</h3>
+                      <p class="card-description">
+                        Lorem ipsum dolor sit amet consectetur
+                      </p>
+                    </div>
+                    <span class="number number-music">20</span>
+                  </div>
+                  <img
+                    src="images/undraw_Podcast_audience_re_4i5q.png"
+                    class="card-img"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="content-div fade" id="education">
+              <div class="main--container-finance grid grid--2-cols">
+                <div class="inner--container-education">
+                  <div class="card-topic card flex flex-col">
+                    <div class="flex card-header justify-center">
+                      <div class="education-topic-header">
+                        <h3 class="heading-tertiary">Graduation</h3>
+                        <p class="card-description">
+                          Lorem ipsum dolor sit amet consectetur
+                        </p>
+                      </div>
+                      <span class="number number-education">80</span>
+                    </div>
+                    <img
+                      src="images/undraw_Educator_re_ju47.png"
+                      class="card-img"
+                      alt=""
+                    />
+                  </div>
+                </div>
+                <div class="inner--container-education">
+                  <div class="card-topic card flex flex-col">
+                    <div class="flex card-header justify-center">
+                      <div class="education-topic-header">
+                        <h3 class="heading-tertiary">Educator</h3>
+                        <p class="card-description">
+                          Lorem ipsum dolor sit amet consectetur
+                        </p>
+                      </div>
+                      <span class="number number-education">75</span>
+                    </div>
+                    <img
+                      src="images/undraw_Graduation_re_gthn.png"
+                      class="card-img"
+                      alt=""
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section-how" id="how">
+        <div class="how-overlay"></div>
+        <div class="container-how">
+          <div class="inner--container-how">
+            <h2 class="heading-secondary text-white text-center">
+              How it works?
+            </h2>
+            <div class="grid how--2-cols text-white margin-bottom-vlg">
+              <div class="icon-container grid-row">
+                <ion-icon class="how-icon" name="search-outline"></ion-icon>
+              </div>
+              <h3 class="heading-tertiary margin-bottom-lg">
+                Search your favourite topic
+              </h3>
+              <p class="description-how">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Reiciendis, cumque magnam? Sequi, cupiditate quibusdam alias
+                illum sed esse ad dignissimos libero sunt, quisquam numquam
+                aliquam? Voluptas, accusamus omnis?
+              </p>
+            </div>
+            <div class="grid how--2-cols text-white margin-bottom-vlg">
+              <div class="icon-container grid-row">
+                <ion-icon class="how-icon" name="bookmark-outline"></ion-icon>
+              </div>
+              <h3 class="heading-tertiary margin-bottom-lg">
+                Bookmark & Keep it for yourself
+              </h3>
+              <p class="description-how">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Reiciendis, cumque magnam? Sequi, cupiditate quibusdam alias
+                illum sed esse ad dignissimos libero sunt, quisquam numquam
+                aliquam? Voluptas, accusamus omnis?
+              </p>
+            </div>
+            <div class="grid how--2-cols text-white margin-bottom-vlg">
+              <div class="icon-container grid-row">
+                <ion-icon class="how-icon" name="book-outline"></ion-icon>
+              </div>
+              <h3 class="heading-tertiary margin-bottom-lg">Read & Enjoy</h3>
+              <p class="description-how">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Reiciendis, cumque magnam? Sequi, cupiditate quibusdam alias
+                illum sed esse ad dignissimos libero sunt, quisquam numquam
+                aliquam? Voluptas, accusamus omnis?
+              </p>
+            </div>
+            <div class="text-center flex justify-center align-center gap">
+              <p class="description-how text-white">Want to learn more?</p>
+              <button class="btn-youtube">Check out YouTube</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section-contact" id="contact">
+        <div class="container-contact">
+          <div class="row">
+            <h2 class="heading-secondary text-center margin-bottom-sm">
+              Get in touch
+            </h2>
+
+            <div class="map-container grid contact--3-cols">
+              <iframe
+                class="google-map grid-row"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2595.065641062665!2d-122.4230416990949!3d37.80335401520422!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80858127459fabad%3A0x808ba520e5e9edb7!2sFrancisco%20Park!5e1!3m2!1sen!2sth!4v1684340239744!5m2!1sen!2sth"
+                width="100%"
+                height="250"
+                style="border: 0"
+                allowfullscreen=""
+              ></iframe>
+
+              <div class="">
+                <h3 class="heading-tertiary">Head office</h3>
+
+                <p class="description-how">
+                  Bay St &amp;, Larkin St, San Francisco, CA 94109, United
+                  States
+                </p>
+
+                <hr />
+
+                <p class="description-how">
+                  <span class="me-2">Phone</span>
+
+                  <a href="tel: 305-240-9671" class="site-footer-link">
+                    305-240-9671
+                  </a>
+                </p>
+
+                <p class="description-how">
+                  <span class="me-2">Email</span>
+
+                  <a href="mailto:info@company.com" class="site-footer-link">
+                    info@company.com
+                  </a>
+                </p>
+              </div>
+
+              <div class="">
+                <h4 class="heading-tertiary">Dubai office</h4>
+
+                <p class="description-how">
+                  Burj Park, Downtown Dubai, United Arab Emirates
+                </p>
+
+                <hr />
+
+                <p class="description-how">
+                  <span class="">Phone</span>
+
+                  <a href="tel: 110-220-3400" class="site-footer-link">
+                    110-220-3400
+                  </a>
+                </p>
+
+                <p class="description-how">
+                  <span class="me-2">Email</span>
+
+                  <a href="mailto:info@company.com" class="site-footer-link">
+                    info@company.com
+                  </a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container-footer">
+        <div class="grid grid--4-cols">
+          <a href="#home" class="logo-link flex align-center text-decoration">
+            <svg
+              class="logo-icon"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="w-6 h-6"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M21 7.5l-9-5.25L3 7.5m18 0l-9 5.25m9-5.25v9l-9 5.25M3 7.5l9 5.25M3 7.5v9l9 5.25m0-9v9"
+              />
+            </svg>
+            <span class="topic">Topic</span>
+          </a>
+
+          <div class="footer-resources-container">
+            <h4 class="site-footer-title">Resources</h4>
+
+            <ul class="site-footer-links">
+              <li class="site-footer-link-item">
+                <a href="#home" class="site-footer-link">Home</a>
+              </li>
+              <li class="site-footer-link-item">
+                <a href="#topics" class="site-footer-link">Topics</a>
+              </li>
+
+              <li class="site-footer-link-item">
+                <a href="#how" class="site-footer-link">How it works</a>
+              </li>
+
+              <li class="site-footer-link-item">
+                <a href="#contact" class="site-footer-link">Contact</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="">
+            <h4 class="site-footer-title">Information</h4>
+
+            <p class="info">
+              <a href="tel: 305-240-9671" class="site-footer-link">
+                305-240-9671
+              </a>
+            </p>
+
+            <p class="info">
+              <a href="mailto:info@company.com" class="site-footer-link">
+                info@company.com
+              </a>
+            </p>
+          </div>
+
+          <div class="">
+            <p class="copyright-text">
+              Copyright © 2048 Topic Listing Center. All rights reserved.
+              <br /><br />Design:
+              <a
+                class="site-footer-link"
+                rel="nofollow"
+                href="https://templatemo.com"
+                target="_blank"
+                >TemplateMo</a
+              >
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script>
+      const sectionHeroEl = document.querySelector(".section-hero");
+
+      const obs = new IntersectionObserver(
+        function (entries) {
+          const ent = entries[0];
+          console.log(ent);
+
+          if (ent.isIntersecting === false) {
+            document.body.classList.add("sticky");
+          }
+
+          if (ent.isIntersecting === true) {
+            document.body.classList.remove("sticky");
+          }
+        },
+        {
+          // In the viewport
+          root: null,
+          threshold: 0,
+          rootMargin: "-80px",
+        }
+      );
+      obs.observe(sectionHeroEl);
+
+      let selectedBtn;
+
+      const showDiv = (button) => {
+        const divId = button.dataset.divId;
+
+        const divs = document.querySelectorAll(".content-div");
+
+        divs.forEach((div) => (div.style.display = "none"));
+
+        const selectedDiv = document.getElementById(divId);
+
+        selectedDiv.style.display = "block";
+
+        if (selectedBtn) {
+          const previousBtn = document.getElementById(selectedBtn);
+          previousBtn.classList.remove("selected");
+        }
+
+        selectedBtn = button.id;
+
+        button.classList.add("selected");
+      };
+
+      window.addEventListener("load", function () {
+        const firstBtn = document.getElementById("1");
+        showDiv(firstBtn);
+      });
+
+      const buttons = document.querySelectorAll(".btn-topics");
+      buttons.forEach((btn) => {
+        btn.addEventListener("click", function () {
+          showDiv(this);
+        });
+      });
+    </script>
+  </body>
+</html>
